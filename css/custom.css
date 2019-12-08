@@ -1,0 +1,198 @@
+body{
+  font-family: "Open Sans";
+}
+
+/*
+**Headers
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5{
+  font-family: "Lato";
+}
+
+/*
+** Containers
+*/
+
+.container {
+  padding: 40px 20px;
+}
+
+.container-spacy {
+  padding: 80px 20px;
+}
+
+/*
+** Backgrounds
+*/
+
+.background-purple {
+  background-color: #191C47;
+}
+
+.background-dark {
+  background-color: #17193F;
+}
+
+/*
+** Headers
+*/
+
+header#main{
+  margin-bottom: 40px;
+}
+
+header#main .brand a {
+  display: block;
+  font-family: Pacifico;
+  font-size: 2em;
+  color: #f8bc3b;
+  margin-bottom: 20px;
+}
+
+/*
+** Nav
+*/
+
+nav#main ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  float:right;
+}
+
+nav#main ul li {
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+nav#main ul li:last-child {
+  margin-right:0;
+}
+
+nav#main ul li a {
+  font-size: 78%;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+nav#main ul li a:not(.button) {
+  color: #fff;
+}
+
+/*
+** Buttons
+*/
+nav#main .button {
+  padding: 14px 30px;
+  border-radius: 5px;
+}
+
+nav#main .button-primary {
+  background-color: #f8bc3b;
+  color: #fff;
+}
+nav#main .button-primary:hover {
+  background-color: #393f4a;
+}
+
+
+/*
+** Feature
+*/
+
+.feature h1 {
+ text-transform: uppercase;
+ font-size: 5.5em;
+ color: #f8bc3b;
+ font-weight: 900;
+ line-height: 73px;
+ margin-bottom: 30px;
+ font-family: Tomorrow;
+}
+
+.feature h3 {
+  color: #fff;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-family: Tomorrow;
+}
+
+.feature img {
+  width: 400px;
+  height: auto;
+  float: right;
+}
+
+
+/*
+** About me
+*/
+
+.about {
+  text-align: left;
+}
+
+.about img {
+  margin-bottom: 30px;
+  width: 300px;
+  height: auto;
+}
+
+.about h3 {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: left;
+  letter-spacing: 3px;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.about p{
+  color: #AAAED1;
+  text-align: left;
+  font-size: 1.2em;
+}
+
+.about a#more {
+  color: #f8bc3b;
+  font-weight: 600;
+}
+
+/*
+** Domains
+*/
+
+.domains {
+  text-align: center;
+  color: #fff;
+}
+
+.domains h4 {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.domains h2#title {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.domains img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.domains .column {
+  marign-bottom: 200px;
+}
